@@ -1,0 +1,3 @@
+services:
+    sixpaths.icalendar:
+        class: Sixpaths\ICalendarBundle\ZCiCal

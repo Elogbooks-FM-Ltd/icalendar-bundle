@@ -1,0 +1,27 @@
+{
+    "name": "six-paths/icalendar-bundle",
+    "type": "symfony-bundle",
+    "description": "",
+    "keywords": ["icalendar", "symfony"],
+    "homepage": "https://github.com/six-paths/icalendar-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jack O'Hara",
+            "email": "jack.ohara@sixpaths.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/framework-bundle": "~2.8",
+        "liliumdev/icalendar": "0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sixpaths\\ICalendarBundle\\": "src/Sixpaths/ICalendarBundle/"
+        }
+    }
+}
