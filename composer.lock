@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "aeea4f5e98e98c44fc22e6609ea76779",
+    "content-hash": "ec35a375b7750d717af57d84f9421424",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -246,16 +246,16 @@
         },
         {
             "name": "liliumdev/icalendar",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/liliumdev/icalendar.git",
-                "reference": "0a6bc33fcc6b3f5ddb6a9bd45fe61d1aeef6ba44"
+                "url": "https://github.com/six-paths/icalendar.git",
+                "reference": "a406cfa0a44fa839c67df3560a613cc20eab5eb7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liliumdev/icalendar/zipball/0a6bc33fcc6b3f5ddb6a9bd45fe61d1aeef6ba44",
-                "reference": "0a6bc33fcc6b3f5ddb6a9bd45fe61d1aeef6ba44",
+                "url": "https://api.github.com/repos/six-paths/icalendar/zipball/a406cfa0a44fa839c67df3560a613cc20eab5eb7",
+                "reference": "a406cfa0a44fa839c67df3560a613cc20eab5eb7",
                 "shasum": ""
             },
             "type": "library",
@@ -264,7 +264,6 @@
                     "Liliumdev\\ICalendar\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
@@ -276,10 +275,13 @@
             ],
             "description": "A Composer package for creating icalendar files (ZContent/icalendar)",
             "keywords": [
-                "iCalendar",
+                "icalendar",
                 "liliumdev"
             ],
-            "time": "2017-10-31T16:51:44+00:00"
+            "support": {
+                "source": "https://github.com/six-paths/icalendar/tree/master"
+            },
+            "time": "2017-11-22T13:29:47+00:00"
         },
         {
             "name": "paragonie/random_compat",
