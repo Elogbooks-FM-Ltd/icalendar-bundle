@@ -2,6 +2,6 @@
 
 namespace Sixpaths\ICalendarBundle;
 
-class ZCICalNode extends \Liliumdev\ICalendar\ZCICalNode
+class ZCiCalNode extends \Liliumdev\ICalendar\ZCiCalNode
 {
 }
