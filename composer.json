@@ -16,7 +16,6 @@
     ],
     "require": {
         "php": ">=7.1",
-        "symfony/framework-bundle": "~2.8",
         "liliumdev/icalendar": "0.1.2"
     },
     "require-dev": {
