@@ -12,11 +12,14 @@
         }
     ],
     "repositories": [
-        {"type": "vcs", "url": "https://github.com/six-paths/icalendar"}
+        {
+            "type": "vcs",
+            "url": "https://github.com/six-paths/icalendar"
+        }
     ],
     "require": {
         "php": ">=7.1",
-        "symfony/framework-bundle": "~2.8",
+        "symfony/framework-bundle": "4.4.*",
         "liliumdev/icalendar": "0.1.2"
     },
     "require-dev": {
