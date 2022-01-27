@@ -19,7 +19,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/six-paths/icalendar"
+            "url": "https://github.com/Elogbooks-FM-Ltd/icalendar"
         }
     ],
     "require-dev": {
