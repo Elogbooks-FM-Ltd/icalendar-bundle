@@ -11,17 +11,17 @@
             "email": "jack.ohara@sixpaths.co.uk"
         }
     ],
+    "require": {
+        "php": ">=7.1",
+        "symfony/framework-bundle": "4.4.*",
+        "liliumdev/icalendar": "0.1.2"
+    },
     "repositories": [
         {
             "type": "vcs",
             "url": "https://github.com/six-paths/icalendar"
         }
     ],
-    "require": {
-        "php": ">=7.1",
-        "symfony/framework-bundle": "4.4.*",
-        "liliumdev/icalendar": "0.1.0"
-    },
     "require-dev": {
         "phpunit/phpunit": "~5"
     },
